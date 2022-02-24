@@ -6,5 +6,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'AngularBasics';
+  //String Interpolation
+  title = 'Welcome to Angular Training';
+  //Property Binding
+  public image="/assets/images/img1.jpg"
+  //Two-way Binding
+  public value=" "
+  //Event Binding
+  onClick()
+  {
+    alert("Welcome to Event Binding")
+  }
 }
